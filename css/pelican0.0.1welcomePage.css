@@ -1,0 +1,25 @@
+body{background-color:burlywood}
+#div1
+{
+    font-size: 40px;
+    text-align: center;
+    color: blue;
+}
+#imagesCon
+{
+    width: 350px;
+    height: 100px;
+}
+.avatars
+{
+    float: left;
+    margin-left: 12px;    
+    cursor: pointer;
+    
+}
+.avatars img
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%
+}

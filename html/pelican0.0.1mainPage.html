@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Pelican v0.0.1</title>
+        <link rel="stylesheet" href="../css/pelican0.0.1mainPage.css"/>
+    </head>
+    <body onload="loaded()">
+        <div id="avatarPro"></div>
+        <div id="replyCon">
+            <p id="reply">Reponse comes here</p>
+        </div>
+        <form id="chatboxCon" onsubmit="return false" autocomplete="off">
+            <input type="text" id="chatbox" placeholder="Say something"></input>
+            <input id="chatboxSubmit" type="submit" value="Send" onclick="replies()"/>
+        </form>
+    </body>
+    <script src="../js/pelican0.0.1.js"></script>
+
+</html>

@@ -1,0 +1,16 @@
+body{background-color:burlywood}
+div{
+    text-align: center;
+    font-family: georgia pro;
+}
+h2{font-size: 50px;}
+h4{
+    font-size: 25px;
+    margin-top: -30px;
+}
+input{
+    height: 40px;
+    width: 500px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
